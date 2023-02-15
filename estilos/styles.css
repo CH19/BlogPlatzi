@@ -1,7 +1,17 @@
 *{
+ 
+    box-sizing: border-box;
+ 
+}
+div{
     text-align: center;
-    font-size: large;
+    background-color: beige;
+    border: solid gray 2px;
 }
 h1{
-    color: beige;
+    color: red;
+}
+ul li{
+    display: inline-block;
+    margin: 30px;
 }
