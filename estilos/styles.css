@@ -5,6 +5,7 @@
  
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    color: blue;
 }
 .container{
     text-align: center;
