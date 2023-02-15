@@ -1,16 +1,29 @@
+/* body{
+    font-size: 12px;
+} */
 *{
  
     box-sizing: border-box;
- 
+    
 }
-div{
+.container{
     text-align: center;
     background-color: beige;
     border: solid gray 2px;
+    width: 100vh;
+    margin: 30vh auto;
+   
+  
 }
-h1{
+.container  div{
+    box-shadow: 27px 31px 12px -14px rgba(0,0,0,0.72);
     color: red;
+    background-color: aqua;
+
+
+    
 }
+
 ul li{
     display: inline-block;
     margin: 30px;
