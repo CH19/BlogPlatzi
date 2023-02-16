@@ -5,7 +5,10 @@
  
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    color: yellow;
+    color: blue;
+}
+body{
+    background-color: bisque;
 }
 .container{
     text-align: center;
@@ -20,7 +23,7 @@
     box-shadow: 27px 31px 12px -14px rgba(0,0,0,0.72);
     color: red;
     background-color: aqua;
-
+    position: relative;
 
     
 }
@@ -28,4 +31,10 @@
 ul li{
     display: inline-block;
     margin: 30px;
+}
+.container div img{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 0;
 }
