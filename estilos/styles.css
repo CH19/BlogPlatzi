@@ -15,7 +15,7 @@ body{
     background-color: beige;
     border: solid gray 2px;
     width: 100vh;
-    margin: 30vh auto;
+    margin: 20vh auto 3vh;
    
   
 }
@@ -37,4 +37,22 @@ ul li{
     height: 75px;
     position: absolute;
     left: 0;
+}
+footer div ul li{
+    display: inline-block;
+}
+footer div{
+    align-items: center;
+    border: solid black 2px;
+    width: 500px;
+    background-color: aquamarine;
+    box-shadow: 27px 31px 12px -14px rgba(0,0,0,0.72);
+}
+footer{
+    position: relative;
+    left: 30%;
+    display: inline;
+    
+    
+
 }
